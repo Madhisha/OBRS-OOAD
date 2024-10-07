@@ -1,0 +1,18 @@
+.header {
+    background-color: #939493; /* Grey background */
+    color: white; /* White text */
+    text-align: center;
+    padding: 15px; 
+    position: fixed;
+    width: 100%; 
+    top: 0; 
+    left: 0; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Ensure the header is on top of other content */
+  }
+  
+  .header h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 1.5em; 
+  }
+  

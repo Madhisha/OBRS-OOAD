@@ -1,0 +1,73 @@
+.schedule-container {
+    padding: 10px 20px;
+    margin-top: 50px;
+    position: relative; /* Make sure container is positioned relative to position the button */
+  }
+  
+  .back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #007bff; /* Blue background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    z-index: 1; /* Ensure the button is above other elements */
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  .schedule-table th,
+  .schedule-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+  }
+  
+  .schedule-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .schedule-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .schedule-table button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .schedule-table button:hover {
+    background-color: #45a049;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+  }
+  
